@@ -1,0 +1,75 @@
+body{
+    font-family: Courier,'Courier New', monospace;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+label{
+    display: inline ;
+    width: 180px;
+}
+input[type="text"]{
+    width: 97%;
+    padding: 4px 4px;
+    border-radius: 30px #ccc solid;
+}
+input[type="number"]{
+    width: 50%;
+    padding: 4px;
+    border-radius: 30px #ccc solid;
+}
+ li{
+    display: contents;
+    width: 180px;
+}
+
+.container{
+    width: 70%;
+    margin: 0, auto;
+    overflow: auto;
+}
+
+header{
+    border-bottom:3px grey solid;
+}
+
+footer{
+    border-top: 8px grey solid;
+    text-align: center;
+    padding-top: 5px;
+}
+main{
+    padding-bottom: 40px;
+    text-align: center;
+}
+a.start{
+    color: grey solid;
+    display: inline-block;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    padding: 8px 14px ;
+    border-radius: 14%;
+    
+
+}
+.current{
+    color: grey solid;
+    display: inline-block;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    padding: 8px 14px ;
+    border-radius: 14%; 
+    margin: 20px 0px 10px 0px;
+}
+ @media only screen and (max-width:940px){
+    .container{
+        width: 80%;
+    }
+ }
